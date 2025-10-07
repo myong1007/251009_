@@ -1,23 +1,14 @@
 {
-  "name": "threejs-rotating-cube",
+  "name": "threejs-codespace-cube",
   "version": "1.0.0",
-  "description": "Three.js rotating cube in Codespaces",
+  "description": "A basic Three.js cube for Codespaces",
   "main": "main.js",
-  "homepage": "https://<YOUR_GITHUB_USERNAME>.github.io/<YOUR_REPO_NAME>/",
   "scripts": {
-    "start": "live-server .",
-    "predeploy": "", 
+    "start": "npx live-server .",
     "deploy": "gh-pages -d ."
   },
-  "keywords": [
-    "three.js",
-    "webgl",
-    "codespaces"
-  ],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "live-server": "^1.2.2",
-    "gh-pages": "^5.0.0" 
+    "gh-pages": "^6.1.1"
   }
 }
